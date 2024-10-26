@@ -18,7 +18,7 @@ const Home = () => {
   const fetchUsers = useCallback(async () => {
     try {
       const response = await fetch(
-        "http://localhost:7000/api/user/v1/get-users"
+        "https://leader-board-backend-ovod.onrender.com/api/user/v1/get-users"
       );
       const data = await response.json();
 
@@ -47,7 +47,7 @@ const Home = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:7000/api/user/v1/claim-points",
+        "https://leader-board-backend-ovod.onrender.com/api/user/v1/claim-points",
         {
           method: "PATCH",
           headers: {
