@@ -14,7 +14,7 @@ const Monthly = () => {
   const fetchUsers = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:7000/api/user/v1/your-weekly-history"
+        "https://leader-board-backend-ovod.onrender.com/api/user/v1/your-weekly-history"
       );
       const data = response.data;
       if (data.success) {
