@@ -21,7 +21,7 @@ const Register = () => {
   // Function to handle form submission
   const onSubmit = async (data) => {
     try {
-      const response = await axios.post(`http://localhost:7000/api/auth/v1/register`, data);
+      const response = await axios.post(`https://leader-board-backend-ovod.onrender.com/api/auth/v1/register`, data);
 
       if (response?.data?.success) {
         console.log(response.data);
