@@ -45,7 +45,7 @@ const Leaderboard = () => {
   const fetchUsers = async () => {
     try {
       const response = await fetch(
-        "http://localhost:7000/api/user/v1/get-users"
+        "https://leader-board-backend-ovod.onrender.com/api/user/v1/get-users"
       );
       const data = await response.json();
 
@@ -65,7 +65,7 @@ const Leaderboard = () => {
   const handleGetUserHistory = async (username) => {
     try {
       const response = await fetch(
-        "http://localhost:7000/api/user/v1/your-history",
+        "https://leader-board-backend-ovod.onrender.com/api/user/v1/your-history",
         {
           method: "POST",
           headers: {
