@@ -3,7 +3,7 @@ import { CiUser } from "react-icons/ci";
 import { Link, useLocation } from "react-router-dom";
 import { toast } from "react-toastify";
 import Header from "../../Navbar/Header";
-import Footer from "../../Navbar/Footer";
+// import Footer from "../../Navbar/Footer";
 
 // Modal Component for displaying user history
 const UserHistoryModal = ({ isOpen, onClose, history, username }) => {
