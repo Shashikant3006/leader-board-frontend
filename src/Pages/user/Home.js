@@ -3,7 +3,7 @@ import { CiUser } from "react-icons/ci";
 import { Link, useLocation } from "react-router-dom";
 import { toast } from "react-toastify";
 import Header from "../../Navbar/Header";
-import Footer from "../../Navbar/Footer";
+// import Footer from "../../Navbar/Footer";
 import { useAuth } from "./../../context/AuthContext"; // Import your AuthContext
 import Message from "./message";
 import TabButton from "../Tab";
@@ -133,7 +133,7 @@ const Home = () => {
       </ul>
 
       {/* Bottom Navigation Bar */}
-      <Footer />
+      // <Footer />
     </div>
   );
 };
